@@ -1,6 +1,6 @@
 .conteiner {
    
-    max-width: 1440px;
+    max-width: 1366px;
     width: 100%;
     margin: 0 auto;
     border: solid red 3px;
@@ -35,10 +35,12 @@ header{
 
 
 }
- ul {
+ .uli1 {
     display: flex;
     gap: 70px;
+    /* padding-left: 135px; */
  }
+
 li {
 
     font-size: 13px;
@@ -52,6 +54,7 @@ li {
     height: 37px;
     background-color: #F2F5F8;
     justify-content:flex-end ;
+    padding-left: 135px;
     
 }
 
@@ -71,4 +74,62 @@ li {
     justify-content: center;
     align-items: center; 
     
+}
+
+footer {
+    
+width: 100%;
+background-color: #758BFD;
+display: flex;
+padding-left: 139px;
+padding-right: 139px;
+padding-top: 25px;
+padding-bottom: 27px;
+justify-content: space-between;
+
+}
+
+.footertext
+{
+    width: 634px;
+    border: solid red 3px;
+    display: flex;
+}
+
+.uli2 {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+
+.foottext1
+{
+    color:white;
+    font-size: 14;
+    font-family: 'Roboto';
+}
+
+.l1 {
+    color:white;
+    font-size: 14;
+    font-family: 'Roboto';
+    padding-right: 85px;
+}
+.l2 {
+    color:white;
+    font-size: 14;
+    font-family: 'Roboto';
+    padding-right: 112px;
+}
+.l3 {
+    color:white;
+    font-size: 14;
+    font-family: 'Roboto';
+    padding-right: 112px;
+}
+.l4 {
+    color:white;
+    font-size: 14;
+    font-family: 'Roboto';
+   padding-right:0;
 }
