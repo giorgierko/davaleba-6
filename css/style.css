@@ -3,20 +3,26 @@
     max-width: 1366px;
     width: 100%;
     margin: 0 auto;
-    border: solid red 3px;
+    /* border: solid red 3px; */
     
 }
 
 header{
     width: 100%;
     display: flex;
-    border: solid black 3px;
+    /* border: solid black 3px; */
     justify-content: space-between;
     padding-left: 139px;
     padding-right: 139px;
     padding-top: 28px;
     padding-bottom: 28px;
     align-items: center;
+    background-color: white;
+}
+
+body
+{
+    background-color: #F2F5F8;
 }
 
 
@@ -93,7 +99,7 @@ justify-content: space-between;
 .footertext
 {
     width: 634px;
-    border: solid red 3px;
+    /* border: solid red 3px; */
     display: flex;
 }
 
@@ -133,4 +139,66 @@ justify-content: space-between;
     font-size: 14;
     font-family: 'Roboto';
    padding-right:0;
+}
+
+section {
+
+    
+    background-color: #F2F5F8;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px black solid; */
+    padding-bottom: 108px;
+}
+.textsection
+{
+    color: #133B3A;
+    font-size: 18px;
+    font-family: 'Roboto';
+    padding-top: 59px;
+    padding-bottom: 28px;
+}
+.cards {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 795px;
+    align-content: space-between;
+  
+    
+}
+
+
+.carddiv
+{
+    display: flex; 
+    flex-wrap: wrap;
+    height: 368px;
+    width: 24%;
+    background-color: white;
+    /* border: 2px solid black; */
+    border-radius: 5%;
+    justify-content: center;
+    
+}
+
+.size {
+    
+    width: 86%;
+    height:34%;
+    padding-top: 18px;
+    /* ამ პედინგის კოდმა სურათები დაწია 18 პიქსელით თუ შეკუმშა ვერ გავიგე */
+}
+
+.textpic
+{    
+    display: flex;
+    width: 200px;
+    color:#133B3A;
+    font-size: 20px;
+    font-family: 'Roboto';
+    padding-left: 18px;
+    padding-top: 76px;
+   
 }
